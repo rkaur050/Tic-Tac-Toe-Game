@@ -1,6 +1,6 @@
 const boxes=document.getElementsByClassName('box');
-let tap=new Audio("audio/click.mp3");
-let won=new Audio("audio/won.mp3");
+let tap=new Audio("/audio/click.mp3");
+let won=new Audio("/audio/won.mp3");
 let player='1';
 let turn='X';
 let gamewon=false;
