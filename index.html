@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" href="/assets/favicon-d49ca663.png">
+  <script type="module" crossorigin src="/assets/index-d3c0cf80.js"></script>
+  <link rel="stylesheet" href="/assets/index-986255e4.css">
+</head>
+
+<body class="font-body h-[100vh] bg-bgImage">
+    <nav>
+        <ul>
+            <li class=" text-white bg-purple-950 p-3 text-lg">TicTacToe.com</li>
+        </ul>
+    </nav>
+    <section class="main">
+        <div class="container grid sm:grid-cols-2 sm:mt-20 mt-10  mx-auto justify-center w-fit gap-x-4 sm:p-10">
+            <div class=" first grid grid-rows-3 grid-cols-3  w-fit shadow-2xl bg-white mx-auto">
+                <input type="text" readonly class="box box-style outline-none border-r-2 border-b-2  ">
+                <input type="text" readonly class="box box-style outline-none  border-r-2 border-b-2 ">
+                <input type="text" readonly class="box box-style outline-none  border-b-2 ">
+                <input type="text" readonly class="box box-style outline-none  border-r-2 border-b-2 ">
+                <input type="text" readonly class="box box-style outline-none  border-r-2 border-b-2 ">
+                <input type="text" readonly class="box box-style outline-none  border-b-2 ">
+                <input type="text" readonly class="box box-style outline-none  border-r-2 ">
+                <input type="text" readonly class="box box-style outline-none  border-r-2 ">
+                <input type="text" readonly class="box box-style outline-none ">
+            </div>
+            <div class="second my-14 w-fit px-10 text-center">
+                <p class="turn sm:text-3xl text-2xl text-purple-950 mb-5 ">Turn for Player 1</p>
+                <button class="btn p-2 bg-purple-50 rounded-lg hover:underline shadow-2xl ">Play Again</button>
+                <img src="/assets/winner-abbc41b9.gif" alt="winner" class=" win w-40 hidden mx-auto">
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</html>
